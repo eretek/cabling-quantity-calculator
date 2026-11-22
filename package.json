@@ -1,0 +1,15 @@
+{
+  "name": "cabling-quantity-calculator",
+  "version": "1.1.3",
+  "private": true,
+  "description": "Calculate total cable length, number of 305 m boxes (whole runs per box), patch panels and patch cords from outlet count, average run length and service slack.",
+  "license": "SEE LICENSE IN LICENSE",
+  "homepage": "https://kamera.eretek.com/en/tools/cabling-quantity-calculator",
+  "scripts": {
+    "start": "node scripts/serve.js",
+    "test": "node test/run.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

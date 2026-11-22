@@ -1,0 +1,50 @@
+{
+ "tests": [
+  {
+   "in": {
+    "outlets": 48,
+    "avg": 45,
+    "ppo": 2,
+    "slack": 3,
+    "waste": 0,
+    "box": 305,
+    "panel": 24
+   },
+   "v": {
+    "runs": 96,
+    "boxes": 16,
+    "panels": 4,
+    "cords": 192,
+    "meters": 4608
+   }
+  },
+  {
+   "in": {
+    "list": "Kat 1;20;35\nKat 2;20;60\nDepo;6;95",
+    "ppo": 1,
+    "slack": 3,
+    "waste": 5,
+    "box": 305,
+    "panel": 24
+   },
+   "v": {
+    "runs": 46,
+    "panels": 2
+   }
+  },
+  {
+   "in": {
+    "outlets": 10,
+    "avg": 400,
+    "box": 305
+   },
+   "err": "avg"
+  },
+  {
+   "in": {
+    "ppo": 2
+   },
+   "err": "outlets"
+  }
+ ]
+}
